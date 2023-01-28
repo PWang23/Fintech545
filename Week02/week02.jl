@@ -164,7 +164,7 @@ println("OLS: ", b_hat)
 
 
 #Example R^2 inflation
-prob1 = CSV.read("Project/problem1.csv",DataFrame)
+prob1 = CSV.read("/Users/wangyuanzhe/Desktop/Y1S2/Fintech545/Week02/Project/problem1.csv",DataFrame)
 n = size(prob1,1)
 X = [ones(n) prob1.x]
 Y = prob1.y

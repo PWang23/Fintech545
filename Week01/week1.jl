@@ -57,7 +57,7 @@ function first4Moments(sample)
     sim_corrected = sample .- μ_hat
     cm2 = sim_corrected'*sim_corrected/n
 
-    #variance
+    #unbiased variance
     σ2_hat = sim_corrected'*sim_corrected/(n-1)
 
     #skew
